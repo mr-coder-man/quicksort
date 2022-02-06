@@ -30,14 +30,4 @@ public class QuickSort {
         if (index < right)
             quickSort(arrayToSort, index, right);
     }
-
-//    public static void main(String [] args) {
-//        int [] arrayToSort = { 8, 1, 6 ,9 ,6, 7, 0, 7, 3 };
-//        System.out.println("Unsorted array: ");
-////        printRa(arrayToSort);
-////        quickSort(arrayToSort, 0, arrayToSort.length-1);
-//        System.out.println("\nSorted array: ");
-////        printRa(sortedRa);
-//
-//    }
 }
