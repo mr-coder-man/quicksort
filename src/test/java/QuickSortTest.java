@@ -26,5 +26,7 @@ class QuickSortTest {
                 , new int [] {1,2});
         assertArrayEquals(testArray4
                 , new int [] {-505, -10, -1, 0, 1, 55, 77, 101, 777});
+        assertArrayEquals(testArray5
+                , new int [] {1,2,51,99,101});
     }
 }
